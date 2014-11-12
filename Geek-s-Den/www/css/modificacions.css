@@ -3,13 +3,14 @@
 	padding:0px;
 }
 
-
-
 .menu{
 	margin: 5px;
 		
 }
 
+.clear{
+	clear:left;
+}
 
 .llista{
 	background:red;
@@ -23,3 +24,7 @@
 	color:white;
 	border:2px white;
 }
+#login{
+	float: left;
+	margin: 2px;
+	}
