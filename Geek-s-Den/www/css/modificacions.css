@@ -1,0 +1,25 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+
+.menu{
+	margin: 5px;
+		
+}
+
+
+.llista{
+	background:red;
+	color: white;
+	width:90px;
+	float:left;
+	
+}
+.llista:hover{
+	background:blue; 
+	color:white;
+	border:2px white;
+}
