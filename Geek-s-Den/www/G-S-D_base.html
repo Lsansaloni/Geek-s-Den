@@ -3,18 +3,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-	<title>Geek's Den</title>
+	<title> The Geek's Den</title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="generator" content="Geany 1.22" />
 	<link rel="stylesheet" type="text/css" href="css/modificacions.css" title="style">
 </head>
 
 <body>
-<div id="encabezado">
-<h1>Geek's Den</h1>
-    <!-- lo de class no me queda claro deberiamos modificarlo i en el ul si que le meteriamos-->	
-    <!-- Cuando lo menimizamos el menu se aplasta-->
-	<ul class="menu">
+<div id="header">
+<h1 class="titulo">The Geek's Den</h1>
+     	<ul class="menu">
 		<li class="llista">Inici</li>
 		<li class="llista">Galeria</li>
 		<li class="llista">Contacte</li>
@@ -26,19 +24,20 @@
 		<li class="llista">Grups</li>
 	</ul>
 </div>
-<!--no me bajaba asi que he puesto esto-->	<div class="clear"></div>	
+	
 <div id="login">
 	<fieldset>
 	  		<legend>Log In</legend>
-				Nombre de usuario<br/>
+				<span id="log">Nombre de usuario</span><br/>
 					<input type="text" name="nombre" value="" maxlength="10" />
 				<br/>
-				Contraseña<br/>
+				<span id="log">Contraseña</span><br/>
 					<input type="password" name="password" value="" maxlength="10" />
 				<br/>
+					<a class="pass" href="">¿Has olvidado tu contraseña?</a>
 				<br/>
-					<input type="button" name="guardar" value="entra" />
-					<input type="reset" name="borrar" value="olvida" />
+					<p>¿No tienes cuenta?</p>
+				<input class="boton" type="submit" value="Registrate" />
 	</fieldset>
 </div>
 	
