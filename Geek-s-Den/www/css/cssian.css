@@ -7,18 +7,18 @@ body{
 background-image:url("../img/bg");
 background-repeat:no-repeat;
 background-color:black;
-height:10000px;
 }
 
 .titulo {
 background-color:black;
-border:1px solid white;
+border:1px solid cyan;
 text-align:center;
 }
 
 li { 
+padding:10px;
 float:left;
-width:12.5%;
+width:11%;
 list-style-type:none;
 color:white;
 background-color:black;
@@ -29,6 +29,7 @@ text-align:center;
 li:hover {
 color:black;
 background-color:white;
+border:2px solid cyan
 }
 
 #header {
@@ -42,6 +43,10 @@ position:relative;
 color:white;
 margin-top:3%;
 
+}
+
+iframe {
+border:1px solid grey;
 }
 
 input{
